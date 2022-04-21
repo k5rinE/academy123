@@ -1,0 +1,23 @@
+import java.util.Arrays;
+
+public class Test3 {
+	public static void main(String[] args) {
+
+		int [] Arr = {9,6,7,3,5};
+		for(int i=0; i<Arr.length; i++) {
+			int min=0;
+			for(i=0; i<Arr.length; i++) {
+			if(Arr[i]<Arr[i+1]) {
+				
+				min=Arr[i];
+				Arr[i]=Arr[i+1];
+				Arr[i+1]=min;
+			
+				}
+		}		
+		System.out.println((i+1) + "회전" + Arrays.toString(Arr));
+		
+	}
+}
+}
+		

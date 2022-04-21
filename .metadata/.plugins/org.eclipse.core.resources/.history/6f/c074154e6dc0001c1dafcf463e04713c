@@ -1,0 +1,23 @@
+import java.util.Arrays;
+public class Test4 {
+	
+	/*
+	 *   void add(int i , int j)  ->함수 정의(몸체)
+	 *   반환형 함수이름 매개변수
+	 *     |
+	 * 	   |    void는 반환겂이 없다.
+	 *   void는 반환값이 없다.
+	 *   int 정수형 int를 리턴한다.
+	 *   double
+	 *   
+	 *   add(10,20,) ==> 함수 호출
+	 *   함수이름(인자,인자)
+	 *   
+	 */
+	
+	
+	public static void main(String[] args) {
+	
+	}
+}
+		
